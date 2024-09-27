@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!--SIGN UP FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+<!--OTHER FONT USED-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="./Images/flower-paper-watercolor-painting-stock-illustration-pink-ink-flowers-491b296863a1abf7e064cf56231bcc8f.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div class="form-signup">
+            <div class="image">
+                <!--   <img src="./Images/photo-1454262041357-5d96f50a2f27.avif" alt="">
+                <img src="./Images/photo-1579053778004-3a4d3f0fae19.avif" alt="" id="special">
+                <img src="./Images/flower-watercolor-painting-watercolor-flowers-shading-3f019ca7729f8e6fdf71019d6d26fe53.png" alt="">-->
+                <img src="./Images/flower-paper-watercolor-painting-stock-illustration-pink-ink-flowers-491b296863a1abf7e064cf56231bcc8f.png" alt="">
+            </div>
+            <div class="formm">
+                <form action="">
+                    <p id="first-p">Sign Up 🌺</p>
+                   <!-- <label for="first-name">First Name ❀˖° </label>
+                    <br>-->
+                    <input type="text" id="first-name" placeholder="Name ❀˖°"  required minlength="4">
+                    <span id="name-error"></span>
+                    <div class="email-container">
+                      <!--   <label for="email">Email ❀˖°</label>
+                        <br> --> 
+                        <input type="email" id="email" placeholder="Email❀˖°" required>
+                        <span id="email-error"></span>
+                    </div>
+                    <div class="username-container">
+                       <!--<label for="username">Username ❀˖°</label>
+                        <br>--->
+                        <input type="text" id="username" placeholder="Username❀˖°" required>
+                        <span id="username-error"></span>
+                    </div>
+                    <div class="password-container">
+                     <!--<label for="password">Password ❀˖°</label>
+                        <br>-->
+                        <input type="text" id="password" placeholder="Password❀˖°" required>
+                        <span id="password-error"></span>
+                    </div>
+                    <div class="tandcs">
+                        <p>I agree to all statement in <a href="#">Terms and Condition</a></p>
+                    </div>
+                    <div class="btn-container">
+                        <!--  <button type="submit" id="button">
+                           
+                        </button>            <-->
+                        <button class="c-button c-button--gooey" type="submit" ><a href=""> Sign up</a>
+                            <div class="c-button__blobs">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            </div>
+                        </button>
+                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+                            <defs>
+                              <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+                                <feBlend in="SourceGraphic" in2="goo"></feBlend>
+                              </filter>
+                            </defs>
+                          </svg>
+
+                        <p>Already have an account <a href="#">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="validation.js"></script>
+</body>
+</html>
